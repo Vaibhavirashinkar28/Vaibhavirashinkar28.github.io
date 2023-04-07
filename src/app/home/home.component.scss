@@ -1,0 +1,86 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+ul li a{
+    height: 22.5rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929;
+
+}
+li a:hover {
+    opacity: 0.9;
+    cursor:pointer;
+}
+li a img{
+    object-fit: cover;
+    height:14.5rem;
+}
+
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.fontawesomesvg {width: 2em;
+    height: 1em;
+    vertical-align: -.125em;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.content{
+    padding: .5em 1rem;
+    position: relative;
+}
+
+.stars{ 
+    margin-bottom: .5rem;
+}
+.origins{
+    flex:9;
+}
+
+.origins span{
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    display: inline-block;
+    font-size: .8rem;
+    color: grey;
+    margin-right: .3rem;
+    margin-top:.2rem;
+    padding:0.05rem;
+}
+
+
+.price{
+    color:#414141;
+    margin-top: 0.7rem;
+    padding: .3rem 100% 0 0;
+    background: white;
+    bottom: 0;
+    
+}
+
+.product-item-footer{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.cook-time{
+    font-size: .3rem;
+    flex:3;
+    text-align:right;
+
+}
